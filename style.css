@@ -1,0 +1,14 @@
+.meme-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.meme-container > div {
+  width: 30%;
+  margin: 10px;
+}
+
+.meme-container > div img {
+  width: 100%;
+}
